@@ -1,0 +1,50 @@
+/* CSS CONTACT */
+
+#contact
+{
+    width: 70vw;
+    height: 70vh;
+    background: rgba(255,255,255,0.4);
+    box-shadow: 3px 3px 3px 2px #000;
+    display: grid;
+    /* grid-gap:5%; */
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.item
+{
+    background: #111;
+    text-align: center;
+    border-bottom: 1px solid #00ccff;
+    padding: 20px;
+}
+h3
+{
+    font:bold 16px calibri;
+    color:#eee;
+    padding: 5%;
+}
+#cont_frame
+{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    position: relative;
+    padding: 20px;
+}
+
+.field1
+{
+    width:45%;
+    padding:10px;
+    margin:20px 0;
+}
+.field2
+{
+    width: 95%;
+    height: 200px;
+    padding: 10PX;
+}
+#cont_frame button
+{
+    margin:20px 0;
+}

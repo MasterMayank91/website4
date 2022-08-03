@@ -1,0 +1,72 @@
+/* CSS GALLARY */
+
+#gallary
+{
+	width: 100%;
+	height: auto;
+	background: url("../../rtx/c1.jpg") no-repeat;
+	background-size:cover;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 10vh 3fr 3fr;
+	scroll-snap-type:mandatory;
+}
+#gal_header
+{
+	background:#111;
+	border-bottom:1px solid #00ccff;
+	grid-column: 1/4;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#gal_header button
+{
+	font:14px arial;
+	box-shadow: none;
+}
+.gal_frame, .picture, .gal_detail
+{
+	width:300px;
+	height:450px;
+}
+.gal_frame
+{
+	position: relative;
+	box-shadow: 3px 3px 3px 2px #000;
+	overflow: hidden;
+	margin: 20px;
+}
+.picture
+{
+	position: absolute;
+	object-fit: fill;
+	z-index:2;
+}
+.gal_detail
+{
+	position: absolute;
+	background:rgba(255,255,255,00.7);
+	z-index: 3;
+	left: -300px;
+	visibility: hidden;
+	transition:all linear 0.5s;
+	display: grid;
+}
+h4
+{
+	font:bold 18px arial;
+	border-bottom:2px solid #00ccff;
+	padding: 5px;
+}
+b
+{
+	font:16px calibri;
+	color:#111;
+	padding: 10px 30px;
+}
+.gal_frame:hover .gal_detail
+{
+	left:0;
+	visibility: visible;
+}

@@ -1,0 +1,35 @@
+/* CSS SERVICE */
+
+/* #service{} */
+.serve
+{
+    text-align: center;
+    width:300px;
+    height: 500px;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 3px 3px 3px 2px #000;
+    position: relative;
+}
+h2
+{
+    font:bold 20px arial;
+    text-decoration: underline;
+    padding:30px 0;
+}
+p
+{
+    font:16px arial;
+    padding: 20px;
+}
+.icon2
+{
+    width: 50px;
+    height: 50px;
+    padding: 40px 0 ;
+}
+.serve button
+{
+    position: absolute;
+    left:7vh;
+    bottom:5vh;
+}

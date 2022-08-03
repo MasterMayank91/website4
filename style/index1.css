@@ -1,0 +1,40 @@
+@import "../response/response.css";
+
+#home{
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+    text-align: center;
+}
+h1
+{
+    font:bold 25px arial;
+    padding: 20px;
+	text-decoration:underline;
+}
+p
+{
+    text-align: center;
+    font:16px calibri;
+    padding: 40px 0;
+}
+#home button
+{
+	margin:20px;
+}
+.button
+{
+	width: 200px;
+	background: #00ccff;
+	color:#eee;
+	border:none;
+	font:120% arial;
+	padding: 10px 20px;
+	transition: all 1s;
+}
+.button:hover
+{
+	background: #11ccff;
+	color:#000;
+	box-shadow: 5px 5px 10px 0px #999;
+}

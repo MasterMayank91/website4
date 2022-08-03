@@ -1,0 +1,31 @@
+/* CSS ABOUT */
+
+/* #about{} */
+
+#detail
+{
+    width: auto;
+    height: auto;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 3px 3px 3px 2px #000;
+}
+#details
+{
+    width: 500px;
+    height: 500px;
+}
+#details p, #details h2, #details button
+{
+    text-align: left;
+    margin: 20px;
+}
+#frame img
+{
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    padding: 20px;
+    border:none;
+    /* border-top:20px outset #00c3ff; */
+    border-left: 3px groove  #00ccff;
+}
